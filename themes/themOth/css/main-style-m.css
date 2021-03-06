@@ -1,0 +1,149 @@
+body{
+    text-align: right;
+    background-color: #EEE;
+    direction: rtl;
+}
+a{
+    color: #8a8a8a;
+}
+a:hover {
+    color: #0056b3;
+    text-decoration: none;
+}
+.ads-h{   
+    width: 50%;
+    margin: 5px auto 5px;
+}
+.conatainer-main
+{
+    max-width: 1200px;
+    margin: auto;
+}
+.post
+{
+    margin: 0px 0px 18px 0px;
+    background-color: white;
+    border-bottom: 4px solid #c5c5c5;
+}
+.post img
+{
+    width: 100%;
+    height: 90%;
+}
+.content-post
+{
+    float: left;
+    padding-bottom: 15px;
+}
+.row
+{
+    margin-right: 0;
+    margin-left: 0;
+}
+.sidebar
+{
+    text-align: left;
+}
+.widget-title
+{
+    font-size: unset;
+}
+h3.poste-title {
+    border-radius: 2px;
+    text-align: center;
+    margin: 0px;
+    padding: 5px;
+    width: 100%;
+    color: #6b716f;
+    font-size: large;
+}
+h3.poste-title:hover
+{
+    color: #3b3e40;
+}
+.post-info
+{
+    width: 100%;
+    padding: 0 15px;
+}
+.author
+{
+    float: right;
+}
+.bg-dark {
+    background-color: #0c0c0c!important;
+}
+.widget-sidebar
+{
+    background-color: white;
+    padding: 3px 0px 2px 10px;
+    margin: 5px;
+    border-bottom: 4px solid #c5c5c5;
+}
+/*start pagination*/
+.pagination-num{
+    margin: 10px 10px 10px;
+    text-align: center;
+}
+.pagination-num .page-numbers {
+border: 1px solid #f7f6ee;
+border-radius: 5px;
+background: #c7c4c4;
+font-size: 16px;
+font-weight: bolder;
+padding: 5px 10px;
+
+}
+.pagination-num .page-numbers:hover{
+background: #26abca;
+color: white;
+}
+/*end pagination*/
+/* footer */
+.footer
+{
+	position: relative;
+	width: 100%;
+	bottom: 0;
+	left: 0;
+	height: 50px;
+	background-color: #848390;
+	padding: 15px;
+}
+.main-signle{
+    background-color: #ffffff;
+}
+/*Start contact form*/
+.wpcf7 {
+	text-align : centre;
+}
+/*End contact form*/
+.related-post_signle{
+    width: 95%;
+    margin: auto;
+    padding: 10px;
+}
+.comments{
+	    width: 90%;
+    margin: auto;
+}
+.user-infos{
+		    width: 90%;
+    margin: auto;
+}
+/*
+Extra small devices (portrait phones, less than 576px)
+@media (max-width: 575.98px) { ... }
+
+Small devices (landscape phones, 576px and up)
+@media (min-width: 576px) and (max-width: 767.98px) { ... }
+
+Medium devices (tablets, 768px and up)
+@media (min-width: 768px) and (max-width: 991.98px) { ... }
+
+Large devices (desktops, 992px and up)
+@media (min-width: 992px) and (max-width: 1199.98px) { ... }
+
+Extra large devices (large desktops, 1200px and up)
+@media (min-width: 1200px) { ... }
+*/
